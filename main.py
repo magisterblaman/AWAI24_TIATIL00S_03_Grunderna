@@ -1,10 +1,10 @@
-print("Hello world")
-print("Goodbye world")
+answer = input("Hur mår du? ")
 
-my_text = "Hejhej"
-
-print(my_text)
-
-answer = input("Hur når du? ")
-
-print("Du säger att du mår " + answer)
+if answer == "bra":
+    print("Du ljuger")
+elif answer == "jättebra":
+    print("Hejhej pinocchio")
+elif answer == "dåligt":
+    print("Låter rimligt")
+else:
+    print("Fel")
