@@ -1,10 +1,11 @@
-answer = input("Hur mår du? ")
+feeling = input("Hur mår du? ")
+school = input("Vilken skola går du på? ")
 
-if answer == "bra":
+if feeling == "bra" and school == "pb":
     print("Du ljuger")
-elif answer == "jättebra":
+elif feeling == "jättebra":
     print("Hejhej pinocchio")
-elif answer == "dåligt":
+elif feeling == "dåligt" or feeling == "sämst":
     print("Låter rimligt")
 else:
     print("Fel")
