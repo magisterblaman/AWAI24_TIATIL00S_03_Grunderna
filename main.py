@@ -1,11 +1,15 @@
-feeling = input("Hur mår du? ")
 school = input("Vilken skola går du på? ")
 
-if feeling == "bra" and school == "pb":
-    print("Du ljuger")
-elif feeling == "jättebra":
-    print("Hejhej pinocchio")
-elif feeling == "dåligt" or feeling == "sämst":
-    print("Låter rimligt")
+if school == "lbs":
+    print("Har du en stabil mental hälsa? ")
+    mental_health = input().strip()
+    if mental_health == "ja":
+        print("Byt skola")
+    else:
+        print("Alexandra sitter på övervåningen")
+elif school == "pb":
+    pass
+elif school == "ed":
+    pass
 else:
-    print("Fel")
+    print("Du har en konstig skola")
